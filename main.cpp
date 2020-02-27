@@ -190,7 +190,7 @@ int get_tid() {
 }
 
 
-int main([[maybe_unused]]int argc, char** argv) {
+int main(int argc, char** argv) {
     assert(3 <= argc && argc <= 4);
     n_consumer = std::atoi(argv[1]);
     max_sleep_ms = std::atoi(argv[2]);
